@@ -5,7 +5,7 @@
  * @returns {Promise<string>} O texto da história.
  */
 export async function fetchHistory() {
-  const response = await fetch("http://localhost:3000/api/historia/led_zeppelin");
+  const response = await fetch("/api/historia/led_zeppelin");
   if (!response.ok) {
     throw new Error(`HTTP error! status: ${response.status}`);
   }
