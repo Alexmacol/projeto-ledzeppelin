@@ -1,4 +1,4 @@
-# Led Zeppelin - Runas e Sombras
+# Led Zeppelin - Entre Runas e Sombras
 
 Uma aplicação web dedicada a explorar a história, discografia e músicas da icônica banda de rock Led Zeppelin. A página busca a história da banda de forma dinâmica e apresenta os dados de álbuns e músicas de forma interativa.
 
