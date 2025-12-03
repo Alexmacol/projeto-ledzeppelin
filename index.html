@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="src/css/style.css" />
+      <link
+      rel="stylesheet"
+      href="src/css/responsive.css" />
+      <title>projeto Led Zeppelin</title>
+  </head>
+  <body>
+    <header>
+      <section class="title">
+        <h1>Led Zeppelin - Runas e Sombras</h1>
+      </section>
+      <section
+        id="search-controls"
+        class="search-container">
+        <div class="control-box">
+          <div class="input-group">
+            <label
+              for="filter-select"
+              class="visually-hidden">
+              escolha
+            </label>
+            <select id="filter-select">
+              <option
+                value=""
+                disabled
+                selected>
+                Faça sua escolha...
+              </option>
+              <option value="history">História</option>
+              <option value="albums">Álbuns</option>
+              <option value="compilations">Compilações</option>
+              <option value="songs">Músicas</option>
+            </select>
+            <button
+              type="button"
+              id="info-search-button"
+              class="search-btn"
+              disabled>
+              <i class="fas fa-search"></i>
+              Buscar
+            </button>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <section class="hero-section">
+      <div class="interface">
+        <h1>Where the Hammer of the Gods Still Echoes</h1>
+        <p>Entre runas e sombras, a lenda persiste</p>
+        <span
+          >Conheça a história, os álbuns e as músicas do
+          <span class="highlight">Led Zeppelin</span></span
+        >
+      </div>
+    </section>
+
+    <main id="main-content">
+      <div class="interface">
+        <section class="card-container">
+          <!-- card adicionado dinamicamente -->
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <ul class="footer-links">
+        <li>
+          <a
+            href="https://github.com/Alexmacol"
+            target="_blank"
+            rel="noopener noreferrer"
+            >GitHub</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.ledzeppelin.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Led Zeppelin Official</a
+          >
+        </li>
+        <li><a href="mailto:alexmacol@gmail.com">email</a></li>
+      </ul>
+    </footer>
+
+    <script
+      type="module"
+      src="src/js/script.js"></script>
+  </body>
+</html>
